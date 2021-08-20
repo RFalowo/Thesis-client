@@ -101,7 +101,7 @@ const SoundControls = function () {
 
 const soundcontrols = new SoundControls();
 
-const socket = new StayAliveSocket("ws://localhost:8080");
+const socket = new StayAliveSocket("ws:/lit-bayou-92427.herokuapp.com/ ");
 ///const socket = new WebSocket("ws://localhost:8080");
 socket.onOpen = (event) => {
   console.log("open");
