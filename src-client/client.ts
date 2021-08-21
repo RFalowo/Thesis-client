@@ -5,7 +5,7 @@ import {
   EmailSubmit,
   GetOrder,
 } from "../src-shared/messages";
-import { StayAliveSocket } from "./StayAliveSocket";
+import { StayAliveSocket } from "./StayAliveSocket.js";
 import * as THREE from "three";
 import { GUI } from "dat.gui";
 import { OrbitControls } from "@three-ts/orbit-controls";
