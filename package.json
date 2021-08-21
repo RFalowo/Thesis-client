@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && cd /app/dst-client && ls ",
+    "start": "npm install && node /app/dst-client/src-client/client.js ",
     "postinstall": "tsc -p src-client",
     "assets": "mkdir -p ./dst-client/src-shared/HeadphoneCheck_Test/ && cp -R ./src-shared/HeadphoneCheck_Test/stimuli_HugginsPitch/ ./dst-client/src-shared/HeadphoneCheck_Test/stimuli_HugginsPitch/",
     "build-server": "tsc -p src-server",
