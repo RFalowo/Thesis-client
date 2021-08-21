@@ -9,7 +9,7 @@ import { StayAliveSocket } from "./StayAliveSocket";
 import * as THREE from "three";
 import { GUI } from "dat.gui";
 import { OrbitControls } from "@three-ts/orbit-controls";
-import { DesignerType, Email, Player } from "../src-shared/api";
+import { DesignerType, Email, Player, Trial } from "../src-shared/api";
 //import { Light } from "three";
 import Freeverb from "freeverb";
 import { parameters } from "./parameters";
@@ -1198,7 +1198,7 @@ function submit() {
     openModal(trial1);
   } else if (procedureStep === "trial1") {
     console.log("trial1 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1251,7 +1251,7 @@ function submit() {
     openModal(trial2);
   } else if (procedureStep === "trial2") {
     console.log("trial2 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1296,7 +1296,7 @@ function submit() {
     openModal(trial3);
   } else if (procedureStep === "trial3") {
     console.log("trial3 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1341,7 +1341,7 @@ function submit() {
     openModal(trial4);
   } else if (procedureStep === "trial4") {
     console.log("trial4 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1386,7 +1386,7 @@ function submit() {
     openModal(trial5);
   } else if (procedureStep === "trial5") {
     console.log("trial5 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1431,7 +1431,7 @@ function submit() {
     openModal(trial6);
   } else if (procedureStep === "trial6") {
     console.log("trial6 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1476,7 +1476,7 @@ function submit() {
     openModal(trial7);
   } else if (procedureStep === "trial7") {
     console.log("trial7 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1521,7 +1521,7 @@ function submit() {
     openModal(trial8);
   } else if (procedureStep === "trial8") {
     console.log("trial8 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1566,7 +1566,7 @@ function submit() {
     openModal(trial9);
   } else if (procedureStep === "trial9") {
     console.log("trial9 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
@@ -1611,7 +1611,7 @@ function submit() {
     openModal(trial10);
   } else if (procedureStep === "trial10") {
     console.log("trial10 submitted");
-    const trial = { designerType: "N/A", stim: [], resp: [] };
+    const trial: Trial = { designerType: "N/A", stim: [], resp: [] };
     const stimuli = [];
     const responses = [];
     trial.designerType = config.firstModality;
