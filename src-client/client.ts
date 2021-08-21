@@ -12,7 +12,7 @@ import { OrbitControls } from "@three-ts/orbit-controls";
 import { DesignerType, Email, Player, Trial } from "../src-shared/api";
 //import { Light } from "three";
 import Freeverb from "freeverb";
-import { parameters } from "./parameters";
+import { parameters } from "./parameters.js";
 
 var uniqid = require("uniqid");
 let procedureStep = "trainingSound1";
